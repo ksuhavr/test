@@ -1,4 +1,4 @@
-public class task4 {
+public class Task4 {
     public static void compareNumbers() {
         int a = 15, b = 30;
         if (a >= b) {

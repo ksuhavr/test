@@ -1,4 +1,4 @@
-public class task3 {
+public class Task3 {
     public static void printColor() {
         int value = 10;
         if (value <= 0) {

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class task11 {
+public class Task11 {
     public static void main(String[] args) {
         int[] arr = new int[100];
         for (int i = 0; i < arr.length; i++) {

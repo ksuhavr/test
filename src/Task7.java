@@ -1,4 +1,4 @@
-public class task7 {
+public class Task7 {
     public static boolean checkNumber(int a) {
         return (a <0);
     }

@@ -1,4 +1,4 @@
-public class task2 {
+public class Task2 {
     public static void checkSumSign() {
         int a = 1, b = 2;
         if (a+b >= 0) {

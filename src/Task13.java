@@ -1,4 +1,4 @@
-public class task13 {
+public class Task13 {
     public static void main(String[] args) {
         int size = 5;
         int [][] table = new int [5][5];

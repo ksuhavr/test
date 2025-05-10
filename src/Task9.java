@@ -1,4 +1,4 @@
-public class task9 {
+public class Task9 {
     public static boolean checkYear(int year) {
         if (year % 4 != 0) {
             return false;

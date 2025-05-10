@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class task14 {
+public class Task14 {
     public static int [] arrayFilling (int len, int initialValue) {
         int [] arr = new int [len];
         Arrays.fill(arr, initialValue);
