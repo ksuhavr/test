@@ -5,8 +5,9 @@ public class Product {
     private String country;
     private double price;
     private boolean bookingStatus;
-    public Product (String name, String productionDate, String producer,
-                    String country, double price, boolean bookingStatus) {
+
+    public Product(String name, String productionDate, String producer,
+                   String country, double price, boolean bookingStatus) {
         this.name = name;
         this.productionDate = productionDate;
         this.producer = producer;
@@ -15,14 +16,14 @@ public class Product {
         this.bookingStatus = bookingStatus;
     }
 
-    public void info () {
+    public void info() {
         System.out.println("Название: " + name);
         System.out.println("Дата производства: " + productionDate);
         System.out.println("Производитель: " + producer);
         System.out.println("Страна происхождения: " + country);
         System.out.println("Цена: " + price + " BYN");
         System.out.println("Состоние бронирования покупателем: " + (bookingStatus ? "Забронировано" : "Свободно"));
-        System.out.println( );
+        System.out.println();
     }
 
     public static void main(String[] args) {
